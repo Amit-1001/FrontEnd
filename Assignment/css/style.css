@@ -1,0 +1,148 @@
+.date {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 370px;
+    top: 70px;
+    background: #3FB883;
+    border-radius: 6px;
+}
+
+.date p {
+    position: absolute;
+    width: 18px;
+    height: 10px;
+    left: 12px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    /* identical to box height, or 147% */
+    color: #FFFFFF;
+}
+
+#vLine {
+    position: absolute;
+    width: 0px;
+    height: 56rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    top: 120px;
+    left: 390px;
+}
+
+#hLine {
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 399px;
+    top: 608px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+#day {
+    position: absolute;
+    width: 38px;
+    height: 22px;
+    left: 305px;
+    top: 50px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+#month {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 320px;
+    top: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.time {
+    position: absolute;
+    height: 22px;
+    left: 260px;
+    top: 160px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* this is for time */
+
+ul li {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.icon {
+    position: absolute;
+    width: 61px;
+    height: 22px;
+    left: 338px;
+    top: 150px;
+}
+
+.content {
+    position: absolute;
+    height: 22px;
+    left: 380px;
+    top: 152px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.content ul li {
+    margin-bottom: 50px;
+}
+
+.profile {
+    position: absolute;
+    height: 20px;
+    left: 380px;
+    top: 180px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.container2 {
+    position: absolute;
+    width: 1000px;
+    top: 600px;
+}
+
+.container1 {
+    position: absolute;
+    width: 1000px;
+}
+
+.time ul li {
+    margin-bottom: 45px;
+}
